@@ -7,13 +7,13 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized: isApp
-      ? "检测到无效 API Key，请前往[设置](/#/settings)页检查 API Key 是否配置正确。"
-      : "访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码，或者在[设置](/#/settings)页填入你自己的 OpenAI API Key。",
+      ? "检测到无效 API Key，请前往[设置](/#/settings)页检查 API Key 是否配置正确。\n\n❗️不要在微信内打开，务必使用浏览器访问！\n获取API Key联系👉mayday_my5"
+      : "前往[登录](/#/auth)页输入正确的访问密码，或在[设置](/#/settings)页填入你自己的API Key。\n\n❗️不要在微信内打开，务必使用浏览器访问！\n获取API Key联系👉mayday_my5",
   },
   Auth: {
     Title: "需要密码",
     Tips: "管理员开启了密码验证，请在下方填入访问码",
-    SubTips: "或者输入你的 OpenAI 或 Google API 密钥",
+    SubTips: "获取API Key联系👉mayday_my5",
     Input: "在此处填写访问码",
     Confirm: "确认",
     Later: "稍后再说",
@@ -85,9 +85,9 @@ const cn = {
     Title: "分享聊天记录",
     Copy: "全部复制",
     Download: "下载文件",
-    Share: "分享到 ShareGPT",
+    Share: "x",
     MessageFromYou: "用户",
-    MessageFromChatGPT: "ChatGPT",
+    MessageFromChatGPT: "OKGPT",
     Format: {
       Title: "导出格式",
       SubTitle: "可以导出 Markdown 文本或者 PNG 图片",
@@ -287,8 +287,8 @@ const cn = {
       OpenAI: {
         ApiKey: {
           Title: "API Key",
-          SubTitle: "使用自定义 OpenAI Key 绕过密码访问限制",
-          Placeholder: "OpenAI API Key",
+          SubTitle: "使用自定义 API Key 绕过密码访问限制",
+          Placeholder: "API Key",
         },
 
         Endpoint: {
@@ -377,7 +377,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
+    BotHello: "🎉欢迎使用NiceChat！\n不同问题建议创建新的聊天提问，避免上下文影响回答结果。\n提问政治、色情等敏感问题会将ip及相关信息提交给公安机关。\n\n❗️不要在微信内打开，务必使用浏览器访问！\n获取API Key联系邮箱：help@okgpt.org \n🕙当前版本更新时间：2023年6月24日16:00",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
