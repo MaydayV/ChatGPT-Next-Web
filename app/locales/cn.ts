@@ -377,7 +377,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "🎉欢迎使用NiceChat！\n不同问题建议创建新的聊天提问，避免上下文影响回答结果。\n提问政治、色情等敏感问题会将ip及相关信息提交给公安机关。\n\n❗️不要在微信内打开，务必使用浏览器访问！\n获取API Key联系邮箱：help@okgpt.org \n🕙当前版本更新时间：2023年6月24日16:00",
+    BotHello: "🎉欢迎使用NiceChat！\n不同问题建议创建新的聊天提问，避免上下文影响回答结果。\n提问政治、色情等敏感问题会将ip及相关信息提交给公安机关。\n\n❗️不要在微信内打开，务必使用浏览器访问！\n获取API Key联系👉mayday_my5 \n🕙当前版本更新时间：2023年6月24日16:00",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
