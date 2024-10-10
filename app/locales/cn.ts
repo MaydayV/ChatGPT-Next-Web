@@ -304,10 +304,10 @@ const cn = {
 
     Access: {
       SaasStart: {
-        Title: "使用 NICE Chat AI",
-        Label: "🆕",
+        Title: "使用 NiceChat AI",
+        Label: "🔥",
         SubTitle:
-          "由 NiceChat 官方维护",
+          "方便、易用、成本低",
         ChatNow: "立刻对话",
       },
       AccessCode: {
