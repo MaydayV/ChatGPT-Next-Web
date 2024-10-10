@@ -8,10 +8,8 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized: isApp
-      ? `😆 遇到了一些问题，不用慌:
-       \\ 前往[登录](/#/auth)页输入正确的访问密码，或在[设置](/#/settings)页填入你自己的API Key。\n❗️不要在微信内打开，务必使用浏览器访问！\n获取API Key联系👉mayday_my5 \n `
-      : `😆 遇到了一些问题，不用慌:
-       \ 检测到无效 API Key，请前往[设置](/#/settings)页检查 API Key 是否配置正确。\n❗️不要在微信内打开，务必使用浏览器访问！\n获取API Key联系👉mayday_my5
+      ? `😆 前往[登录](/#/auth)页输入正确的访问密码，或在[设置](/#/settings)页填入你自己的API Key。\n\n❗️不要在微信内打开，务必使用浏览器访问！\n👋获取API Key联系👉mayday_my5 \n `
+      : `😆 检测到无效 API Key，请前往[设置](/#/settings)页检查 API Key 是否配置正确。\n\n❗️不要在微信内打开，务必使用浏览器访问！\n👋获取API Key联系👉mayday_my5
        `,
   },
   Auth: {
