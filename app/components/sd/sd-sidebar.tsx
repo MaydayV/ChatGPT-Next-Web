@@ -122,9 +122,7 @@ export function SideBar(props: { className?: string }) {
       </SideBarBody>
       <SideBarTail
         primaryAction={
-          <a href={REPO_URL} target="_blank" rel="noopener noreferrer">
-            <IconButton icon={<GithubIcon />} shadow />
-          </a>
+
         }
         secondaryAction={
           <IconButton
