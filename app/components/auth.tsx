@@ -159,16 +159,6 @@ function TopBanner() {
         <Logo className={styles["top-banner-logo"]}></Logo>
         <span>
           {Locale.Auth.TopTips}
-          <a
-            href={SAAS_CHAT_URL}
-            rel="stylesheet"
-            onClick={() => {
-              trackSettingsPageGuideToCPaymentClick();
-            }}
-          >
-            {Locale.Settings.Access.SaasStart.ChatNow}
-            <Arrow style={{ marginLeft: "4px" }} />
-          </a>
         </span>
       </div>
       {(isHovered || isMobile) && (
