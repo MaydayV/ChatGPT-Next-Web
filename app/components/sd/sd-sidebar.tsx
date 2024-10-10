@@ -121,9 +121,6 @@ export function SideBar(props: { className?: string }) {
         <SdPanel />
       </SideBarBody>
       <SideBarTail
-        primaryAction={
-
-        }
         secondaryAction={
           <IconButton
             text={Locale.SdPanel.Submit}
