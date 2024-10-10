@@ -9,12 +9,8 @@ const cn = {
   Error: {
     Unauthorized: isApp
       ? `😆 遇到了一些问题，不用慌:
-       \\ 1️⃣ 检测到无效 API Key，请前往[设置](/#/settings)页检查 API Key 是否配置正确。\n\n❗️不要在微信内打开，务必使用浏览器访问！\n获取API Key联系👉mayday_my5
-       \\ 2️⃣ 前往[登录](/#/auth)页输入正确的访问密码，或在[设置](/#/settings)页填入你自己的API Key。\n\n❗️不要在微信内打开，务必使用浏览器访问！\n获取API Key联系👉mayday_my5`
-      : `😆 遇到了一些问题，不用慌:
-       \ 1️⃣ 检测到无效 API Key，请前往[设置](/#/settings)页检查 API Key 是否配置正确。\n\n❗️不要在微信内打开，务必使用浏览器访问！\n获取API Key联系👉mayday_my5
-       \ 2️⃣ 前往[登录](/#/auth)页输入正确的访问密码，或在[设置](/#/settings)页填入你自己的API Key。\n\n❗️不要在微信内打开，务必使用浏览器访问！\n获取API Key联系👉mayday_my5
-       `,
+       \\ 1️⃣ 检测到无效 API Key，请前往[设置](/#/settings)页检查 API Key 是否配置正确。\n❗️不要在微信内打开，务必使用浏览器访问！\n获取API Key联系👉mayday_my5
+       \\ 2️⃣ 前往[登录](/#/auth)页输入正确的访问密码，或在[设置](/#/settings)页填入你自己的API Key。\n\n❗️不要在微信内打开，务必使用浏览器访问！\n获取API Key联系👉mayday_my5`,
   },
   Auth: {
     Return: "返回",
@@ -309,7 +305,7 @@ const cn = {
     Access: {
       SaasStart: {
         Title: "使用 NICE Chat AI",
-        Label: "（性价比最高的方案）",
+        Label: "（注册使用）",
         SubTitle:
           "由 NiceChat 官方维护, 零配置开箱即用",
         ChatNow: "立刻对话",
