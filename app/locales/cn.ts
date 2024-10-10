@@ -22,7 +22,7 @@ const cn = {
     Later: "稍后再说",
     SaasTips: "🌟获取API Key联系👉mayday_my5",
     TopTips:
-      "🥳 获取API Key联系👉mayday_my5",
+      "🥳 感谢您发现并使用NiceChat！",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
