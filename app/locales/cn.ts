@@ -307,7 +307,7 @@ const cn = {
         Title: "使用 NICE Chat AI",
         Label: "🆕",
         SubTitle:
-          "由 NiceChat 官方维护, 零配置注册即用",
+          "由 NiceChat 官方维护",
         ChatNow: "立刻对话",
       },
       AccessCode: {
@@ -327,7 +327,7 @@ const cn = {
         ApiKey: {
           Title: "API Key",
           SubTitle: "使用自定义 Key 绕过密码访问限制",
-          Placeholder: "API Key",
+          Placeholder: "OpenAI API Key",
         },
 
         Endpoint: {
